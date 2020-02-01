@@ -1,14 +1,13 @@
 # sql-challenge
- Design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data.
+
+ 
+    Design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data.
 
 
-Inside your local git repository, create a directory for the SQL challenge. Use a folder name to correspond to the challenge: EmployeeSQL.
+    Inside your local git repository, create a directory for the SQL challenge. Use a folder name to correspond to the challenge: EmployeeSQL.
 
-
-Add your files to this folder.
-
-
-Push the above changes to GitHub.
+    Add your files to this folder.
+    Push the above changes to GitHub.
 
 
 
@@ -58,22 +57,6 @@ In descending order, list the frequency count of employee last names, i.e., how 
 
 Bonus (Optional)
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
-
-
-Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
-from sqlalchemy import create_engine
-engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-connection = engine.connect()
-
-
-
-
-Consult SQLAlchemy documentation for more information.
-
-
-If using a password, do not upload your password to your GitHub repository. See https://www.youtube.com/watch?v=2uaTPmNvH0I and https://martin-thoma.com/configuration-files-in-python/ for more information.
-
-
 
 
 Create a histogram to visualize the most common salary ranges for employees.
